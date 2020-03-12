@@ -9,7 +9,7 @@ const orderForm = {
     validation: {
       required: true,
       minLength: 5,
-      maxLength: 5
+      maxLength: 15
     },
     valid: false,
     touched: false
@@ -24,7 +24,7 @@ const orderForm = {
     validation: {
       required: true,
       minLength: 5,
-      maxLength: 5
+      maxLength: 15
     },
     valid: false,
     touched: false
@@ -39,7 +39,7 @@ const orderForm = {
     validation: {
       required: true,
       minLength: 5,
-      maxLength: 5
+      maxLength: 15
     },
     valid: false,
     touched: false
@@ -54,7 +54,7 @@ const orderForm = {
     validation: {
       required: true,
       minLength: 5,
-      maxLength: 5
+      maxLength: 15
     },
     valid: false,
     touched: false
@@ -69,7 +69,7 @@ const orderForm = {
     validation: {
       required: true,
       minLength: 5,
-      maxLength: 5
+      maxLength: 15
     },
     valid: false,
     touched: false
@@ -82,7 +82,7 @@ const orderForm = {
         { value: "cheapest", displayValue: "Cheapest" }
       ]
     },
-    value: "",
+    value: "fastest",
     validation: {},
     valid: true
   }
